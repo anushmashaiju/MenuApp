@@ -1,0 +1,61 @@
+.menu-section {
+  position: relative;
+  height: 300px;
+  background: url('images/Rectangle 103.png') no-repeat center center/cover; /* Improved scaling */
+  color: white;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.menu-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-title {
+  font-size: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0; /* Remove unnecessary margin to control spacing */
+}
+
+.menu-description {
+  font-size: 18px;
+  opacity: 0.9;
+  font-family: "Kelly Slab", sans-serif;
+  font-weight: 400;
+  color: #bbbbbb;
+  width: 40%;
+  margin: 20px 0 0; /* Set margin-top to 20px for consistent spacing */
+  text-align: center; /* Center-align the description */
+}
+
+.menu-tabs {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background: url('images/Rectangle 107.png') no-repeat center center/cover;
+  color: white;
+  height: 50px;
+}
+
+.menu-tab {
+  padding: 10px 20px;
+  border: 1px solid #0796EF;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu-tab:hover {
+ 
+  background-color: #0796EF;
+}
